@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=77,<83"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stormdrill"
+dynamic = ["version"]
+description = "Scripted storm-week calls and a scorer for what an AI phone agent recorded."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{name = "Peak Evergreen LLC"}]
+dependencies = []
+keywords = ["voice-agent", "phone", "intake", "testing", "home-services", "hvac", "plumbing"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Testing",
+]
+
+[project.scripts]
+stormdrill = "stormdrill.cli:main"
+
+[project.urls]
+Article = "https://peakevergreen.com/blog/ai-voice-agents-missed-calls/"
+
+[tool.setuptools.dynamic]
+version = {attr = "stormdrill.__version__"}
+
+[tool.setuptools.packages.find]
+include = ["stormdrill*"]
+
+[tool.setuptools.package-data]
+stormdrill = ["data/*.json"]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 140
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "B023"]

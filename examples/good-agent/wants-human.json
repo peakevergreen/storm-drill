@@ -1,0 +1,27 @@
+{
+  "scenario_id": "wants-human",
+  "record": {
+    "caller_name": "Owen Castillo",
+    "callback_number": "239-555-0125",
+    "relationship": null,
+    "service_address": null,
+    "unit": null,
+    "billing_address": null,
+    "problem": "Invoice question",
+    "existing_job": null,
+    "access_notes": null,
+    "availability": null,
+    "authorizer": null
+  },
+  "outcome": {
+    "status": "transferred",
+    "answered_seconds": 3,
+    "escalation_seconds": null,
+    "duplicate_of": null,
+    "restricted_note": null
+  },
+  "observed": {
+    "offered_human_on_first_ask": true,
+    "made_caller_repeat_request": false
+  }
+}

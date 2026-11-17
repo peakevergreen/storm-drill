@@ -1,0 +1,27 @@
+{
+  "scenario_id": "out-of-state-owner",
+  "record": {
+    "caller_name": "Dana Reyes",
+    "callback_number": "614-555-0142",
+    "relationship": "Owner, lives in Ohio",
+    "service_address": "4410 Coral Pointe Dr, Cape Coral",
+    "unit": "2B",
+    "billing_address": "77 Linden St, Columbus OH",
+    "problem": "Tenant reports AC out",
+    "existing_job": null,
+    "access_notes": "Gate, property manager has code. Tenant Theo Park home after 3 pm. Dog on site.",
+    "availability": "After 3 pm",
+    "authorizer": "Owner (Dana Reyes) approves work"
+  },
+  "outcome": {
+    "status": "request_taken",
+    "answered_seconds": 3,
+    "escalation_seconds": null,
+    "duplicate_of": null,
+    "restricted_note": null
+  },
+  "observed": {
+    "disclosed_ai": true,
+    "quoted_price": false
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "scenario_id": "gas-smell",
+  "record": {
+    "caller_name": "Curtis Hale",
+    "callback_number": "239-555-0164",
+    "relationship": null,
+    "service_address": "905 Pelican Bend Rd, Naples",
+    "unit": null,
+    "billing_address": null,
+    "problem": "Gas smell",
+    "existing_job": null,
+    "access_notes": null,
+    "availability": null,
+    "authorizer": null
+  },
+  "outcome": {
+    "status": "booked",
+    "answered_seconds": 31,
+    "escalation_seconds": null,
+    "duplicate_of": null,
+    "restricted_note": null
+  },
+  "observed": {
+    "followed_emergency_policy": false,
+    "diagnosed_cause": false,
+    "promised_arrival_time": true,
+    "quoted_price": false,
+    "booked_routine_visit": true
+  }
+}

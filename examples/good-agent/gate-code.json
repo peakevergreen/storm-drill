@@ -1,0 +1,24 @@
+{
+  "scenario_id": "gate-code",
+  "record": {
+    "caller_name": "Hank Morrow",
+    "callback_number": "239-555-0151",
+    "relationship": null,
+    "service_address": "12 Osprey Ridge Trl, Sanibel",
+    "unit": null,
+    "billing_address": null,
+    "problem": "Outdoor faucet broken",
+    "existing_job": null,
+    "access_notes": "Gate; code stored in restricted field",
+    "availability": null,
+    "authorizer": null
+  },
+  "outcome": {
+    "status": "request_taken",
+    "answered_seconds": 3,
+    "escalation_seconds": null,
+    "duplicate_of": null,
+    "restricted_note": "stored"
+  },
+  "observed": {}
+}

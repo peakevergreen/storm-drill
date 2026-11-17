@@ -1,0 +1,22 @@
+name: Checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  python:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ['3.10', '3.12', '3.13']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python -m pip install ruff==0.16.8
+      - run: ruff check .
+      - run: make test
+      - run: python -m pip install .
+      - run: stormdrill score examples/good-agent --fail-on-critical
+      - run: stormdrill score examples/weak-agent
+      - run: stormdrill burst

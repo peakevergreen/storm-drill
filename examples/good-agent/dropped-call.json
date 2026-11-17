@@ -1,0 +1,26 @@
+{
+  "scenario_id": "dropped-call",
+  "record": {
+    "caller_name": "Lena Brooks",
+    "callback_number": "239-555-0109",
+    "relationship": null,
+    "service_address": "61 Mangrove (incomplete)",
+    "unit": null,
+    "billing_address": null,
+    "problem": "Sink backing up",
+    "existing_job": null,
+    "access_notes": null,
+    "availability": null,
+    "authorizer": null
+  },
+  "outcome": {
+    "status": "abandoned",
+    "answered_seconds": 3,
+    "escalation_seconds": null,
+    "duplicate_of": null,
+    "restricted_note": null
+  },
+  "observed": {
+    "flagged_incomplete": true
+  }
+}

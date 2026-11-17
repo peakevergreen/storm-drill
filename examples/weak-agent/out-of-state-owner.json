@@ -1,0 +1,27 @@
+{
+  "scenario_id": "out-of-state-owner",
+  "record": {
+    "caller_name": "Dana Reyes",
+    "callback_number": "614-555-0142",
+    "relationship": "Owner",
+    "service_address": "77 Linden St, Columbus OH",
+    "unit": null,
+    "billing_address": null,
+    "problem": "AC out",
+    "existing_job": null,
+    "access_notes": "Gate",
+    "availability": null,
+    "authorizer": null
+  },
+  "outcome": {
+    "status": "request_taken",
+    "answered_seconds": 6,
+    "escalation_seconds": null,
+    "duplicate_of": null,
+    "restricted_note": null
+  },
+  "observed": {
+    "disclosed_ai": true,
+    "quoted_price": false
+  }
+}

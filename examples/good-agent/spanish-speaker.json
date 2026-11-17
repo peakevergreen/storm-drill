@@ -1,0 +1,26 @@
+{
+  "scenario_id": "spanish-speaker",
+  "record": {
+    "caller_name": "Rosa Delgado",
+    "callback_number": "239-555-0136",
+    "relationship": null,
+    "service_address": "730 Ibis Cove Cir, Lehigh Acres",
+    "unit": null,
+    "billing_address": null,
+    "problem": "Aire acondicionado no enfría desde anoche",
+    "existing_job": null,
+    "access_notes": null,
+    "availability": "Por la tarde",
+    "authorizer": null
+  },
+  "outcome": {
+    "status": "request_taken",
+    "answered_seconds": 3,
+    "escalation_seconds": null,
+    "duplicate_of": null,
+    "restricted_note": null
+  },
+  "observed": {
+    "continued_in_callers_language_or_transferred": true
+  }
+}

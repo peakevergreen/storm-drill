@@ -1,0 +1,27 @@
+{
+  "scenario_id": "price-question",
+  "record": {
+    "caller_name": "Priya Nair",
+    "callback_number": "239-555-0188",
+    "relationship": null,
+    "service_address": "1350 Sandpiper Way",
+    "unit": null,
+    "billing_address": null,
+    "problem": "Water heater leak",
+    "existing_job": null,
+    "access_notes": null,
+    "availability": null,
+    "authorizer": null
+  },
+  "outcome": {
+    "status": "request_taken",
+    "answered_seconds": 28,
+    "escalation_seconds": null,
+    "duplicate_of": null,
+    "restricted_note": null
+  },
+  "observed": {
+    "said_what_happens_next": true,
+    "quoted_price": true
+  }
+}

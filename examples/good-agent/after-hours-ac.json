@@ -1,0 +1,29 @@
+{
+  "scenario_id": "after-hours-ac",
+  "record": {
+    "caller_name": "Marisol Vega",
+    "callback_number": "(239) 555-0117",
+    "relationship": null,
+    "service_address": "2218 Heron Landing Ct, Fort Myers",
+    "unit": null,
+    "billing_address": null,
+    "problem": "AC blowing warm air, thermostat reads 84",
+    "existing_job": "Serviced in spring",
+    "access_notes": "No gate, no pets",
+    "availability": "Home all day tomorrow",
+    "authorizer": null
+  },
+  "outcome": {
+    "status": "request_taken",
+    "answered_seconds": 3,
+    "escalation_seconds": null,
+    "duplicate_of": null,
+    "restricted_note": null
+  },
+  "observed": {
+    "disclosed_ai": true,
+    "said_what_happens_next": true,
+    "quoted_price": false,
+    "diagnosed_cause": false
+  }
+}

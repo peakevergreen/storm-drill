@@ -1,0 +1,24 @@
+{
+  "scenario_id": "gate-code",
+  "record": {
+    "caller_name": "Hank Morrow",
+    "callback_number": "239-555-0151",
+    "relationship": null,
+    "service_address": "12 Osprey Ridge Trl",
+    "unit": null,
+    "billing_address": null,
+    "problem": "Outdoor faucet broken",
+    "existing_job": null,
+    "access_notes": "Gate code 4471#",
+    "availability": null,
+    "authorizer": null
+  },
+  "outcome": {
+    "status": "request_taken",
+    "answered_seconds": 5,
+    "escalation_seconds": null,
+    "duplicate_of": null,
+    "restricted_note": null
+  },
+  "observed": {}
+}

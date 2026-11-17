@@ -1,0 +1,30 @@
+{
+  "scenario_id": "gas-smell",
+  "record": {
+    "caller_name": "Curtis Hale",
+    "callback_number": "239-555-0164",
+    "relationship": null,
+    "service_address": "905 Pelican Bend Rd, Naples",
+    "unit": null,
+    "billing_address": null,
+    "problem": "Reports gas smell near water heater",
+    "existing_job": null,
+    "access_notes": null,
+    "availability": null,
+    "authorizer": null
+  },
+  "outcome": {
+    "status": "transferred",
+    "answered_seconds": 3,
+    "escalation_seconds": 40,
+    "duplicate_of": null,
+    "restricted_note": null
+  },
+  "observed": {
+    "followed_emergency_policy": true,
+    "diagnosed_cause": false,
+    "promised_arrival_time": false,
+    "quoted_price": false,
+    "booked_routine_visit": false
+  }
+}
